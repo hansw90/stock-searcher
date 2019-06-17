@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pandas_datareader import data as web
 
+
+
 # Make function for calls to Yahoo Finance
 def get_adj_close(ticker, start, end):
     '''
